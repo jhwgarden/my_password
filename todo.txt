@@ -1,0 +1,10 @@
+< short >
+
+clean up existing passwords
+add tasks code
+encode existing password
+store salt as plain text in tmp
+:add task [add salt confirmation]
+:lookup task
+
+
