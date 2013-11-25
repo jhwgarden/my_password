@@ -1,4 +1,4 @@
-import os, re
+import os, re, yaml
 
 class BaseTask:
 
@@ -8,6 +8,10 @@ class BaseTask:
 
     def initialise(self, *args, **kwargs):
         pass
+
+from lib.encoder import encode, decode
+
+EncodedFields=["password"]
 
 SecretKeyFile="tmp/secretkey.txt"
 
@@ -21,14 +25,26 @@ class EncodeTask(BaseTask):
 
     @classmethod
     def validate(self, *args, **kwargs):
-        pass
+        if len(args)==0:
+            raise RuntimeError("Please enter src")
+        if not os.path.isfile(args[0]):
+            raise RuntimeError("Src file not found")        
+        if not args[0].endswith("yaml"):
+            raise RuntimeError("Src must be a yaml file")
 
-    def initialise(self, *args, **kwargs):
-        pass
+    def initialise(self, *args, **kwargs):        
+        self.src=args[0]
 
-    def run(self, *args, **kwargs):
-        print load_secretkey()
-        print "encode"
+    def run(self, *args, **kwargs):        
+        secretkey=load_secretkey()
+        accounts=yaml.load(file(self.src).read())
+        for account in accounts:
+            for attr in EncodedFields:
+                if account[attr]:
+                    account[attr]=encode(account[attr], secretkey)
+        dest=file("tmp/encoded.yaml", 'w')
+        dest.write(yaml.safe_dump(accounts, default_flow_style=False))
+        dest.close()
 
 class SearchTask(BaseTask):
 
