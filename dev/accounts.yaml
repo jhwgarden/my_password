@@ -1,252 +1,253 @@
 # barclays
-- account: 123-reg
+- name: 123-reg
   password: Truc1e2701
   username: hufton
-- account: abbey mortgage
+- name: abbey mortgage
   password: (G|g)g0nkus
   username: sworrall/justin.worrall@gmail.com
-- account: adsense
+- name: adsense
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: amazon
+- name: amazon
   password: BigSir2012
   username: justin.worrall@gmail.com
-- account: anki
+- name: anki
   password: holyheadisdead
   username: justin.worrall@gmail.com
-- account: appexchange
+- name: appexchange
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: apple
+- name: apple
   password: Libritz0612
   username: justin.worrall@gmail.com
-- account: appsumo
+- name: appsumo
   password: kraznayaploshad
   username: justin.worrall@gmail.com
-- account: babbel
+- name: babbel
   password: hownowreddeer
   username: justin.worrall@gmail.com
-- account: backpack
+- name: backpack
   password: Weewu0612
   username: hufton.backpackit.com
-- account: verified by visa
+- name: verified by visa
   password: Hufton123
   username: mrworrall62
-- account: verified by visa
+- name: verified by visa
   password: Pcat2307
   username: mrworrall549
-- account: verified by visa
+- name: verified by visa
   password: Moleman1405
   username: mrworrall598
-- account: basecamp
+- name: basecamp
   password: Hufton123
   username: justin
-- account: bdp
+- name: bdp
   password: Hufton123
   username: bigggo
-- account: bob's books
+- name: bob's books
   password: vl4gitnt
   username: justin.worrall@gmail.com
-- account: boris bikes
+- name: boris bikes
   password: Oneill1008
   username: justin.worrall@gmail.com
-- account: bt broadband
+- name: bt broadband
   password: Hufton123
-  username: BTCN3482932/justin.worrall@btbroadband.com
-- account: bt
+  account: BTCN3482932
+  username: justin.worrall@btbroadband.com
+- name: bt
   password: kraznayapl0shad
   username: justin.worrall@gmail.com
-- account: canonical
+- name: canonical
   password: Flood2308
   username: hufton
-- account: codecademy
+- name: codecademy
   password: Pocoyowossit
   username: justin.worrall@gmail.com
-- account: colourlovers
+- name: colourlovers
   password: Hufton123
   username: hufton
-- account: creditexpert
+- name: creditexpert
   password: Tun1si@0308
   username: justin.worrall@gmail.com
-- account: delicious
+- name: delicious
   password: P1ggyw1g
   username: hufton
-- account: dell
+- name: dell
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: disqus
+- name: disqus
   password: wearetherobots
   username: hufton
-- account: dropbox
+- name: dropbox
   password: inxanadudidkublakhan/0gsd7cxp0b8vbwnb
   username: justin.worrall@gmail.com
-- account: ebay
+- name: ebay
   password: Rumboldington1405
   username: huftonw
-- account: elance
+- name: elance
   password: Tomahawk2403
   username: hufton
-- account: experian
+- name: experian
   password: M0leman/Hufton123/QC3NLFRDZT/Trucie2701
   username: justin.worrall@gmail.com
-- account: evernote
+- name: evernote
   password: krazivayamalchik
   username: justin.worrall@gmail.com/huftonian
-- account: yahoo/flickr
+- name: yahoo/flickr
   password: trucie
   username: justinworrall
-- account: fracsoft
+- name: fracsoft
   password: Vuitton1104
   username: hufton
-- account: friends and family railcard
+- name: friends and family railcard
   password: h0wn0wbr0wnc0w
   username: justin.worrall@gmail.com
-- account: geni
+- name: geni
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: github
+- name: github
   password: theworld1smylobster
   username: justin.worrall@gmail.com
-- account: google
+- name: google
   password: welcometothepleasuredome
   username: justin.worrall@gmail.com
-- account: google apps
+- name: google apps
   password: overthehillswego
   username: hufton
-- account: heroku
+- name: heroku
   password: Chubl1ng0712
   username: justin.worrall@gmail.com
-- account: hbos
+- name: hbos
   password: Hufton123/1031
   username: JUSTINHEAT
-- account: ing
+- name: ing
   password: 018101/huftonmole/14~05~72
-  username: 168571699/13556519 
-- account: linkedin
+  account: 168571699/13556519 
+- name: linkedin
   password: jervutnye
   username: justin.worrall@gmail.com
-- account: linode
+- name: linode
   password: DiamondMineToTheFactory
   username: hufton
-- account: lovefilm
+- name: lovefilm
   password: Br0wn0wl123
   username: justin.worrall@gmail.com
-- account: lulu
+- name: lulu
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: justgiving
+- name: justgiving
   password: zholtyzilony
   username: justin.worrall@gmail.com
-- account: microsoft
+- name: microsoft
   password: wheresmyl1nuxsdk
   username: justin.worrall@gmail.com
-- account: mockingbird
+- name: mockingbird
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: moo cards
+- name: moo cards
   password: Hufton123
   username: hufton
-- account: ms excomp
+- name: ms excomp
   password: M0lem@n1405
   username: justin.worrall@gmail.com
-- account: ms p60
+- name: ms p60
   password: Stup1d1ty@
-- account: nytimes
+- name: nytimes
   password: Hufton123
   username: hufton123
-- account: oddschecker
+- name: oddschecker
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: olbg
+- name: olbg
   password: Benghazi1803
   username: hufton
-- account: oracle
+- name: oracle
   password: 1HateLarry
   username: justin.worrall@gmail.com
-- account: orange
-  password: Hufton123/0181'
+- name: orange
+  password: Hufton123/0181
   username: 07815056254
-- account: oyster
+- name: oyster
   password: BigWig1911/Ray
   username: HUFTON
-- account: parse.com
+- name: parse.com
   password: doosanhitachitarmaclaing
   username: justin.worrall@gmail.com
-- account: paypal
+- name: paypal
   password: Bodlar0804
   username: justin.worrall@gmail.com
-- account: pragmatic programmers
+- name: pragmatic programmers
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: quora
+- name: quora
   password: roedeerme
   username: justin.worrall@gmail.com
-- account: reddit
+- name: reddit
   password: Hufton123
   username: hufton
-- account: rentacoder
+- name: rentacoder
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: safari
+- name: safari
   password: Hufton
   username: justin.worrall@gmail.com
-- account: scribd
+- name: scribd
   password: Hufton123
   username: hufton
-- account: skype
+- name: skype
   password: Trucie2701
   username: justinworrall
-- account: smarkets
+- name: smarkets
   password: Hufton123
   username: Justin
-- account: sportsdirect
+- name: sportsdirect
   password: ihateashley
   username: justin.worrall@gmail.com
-- account: gmail/sportshacker
+- name: gmail/sportshacker
   password: semichastniy
   username: sportshacker1@gmail.com
-- account: gmail/sportsrisq
+- name: gmail/sportsrisq
   password: karichneviy
   username: jworrall@sportsrisq.com
-- account: spotify
+- name: spotify
   password: Samani1303
   username: huftonw
-- account: stackoverflow
+- name: stackoverflow
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: stemnet
+- name: stemnet
   password: greengreenfieldsofyore
   username: justin.worrall@gmail.com
-- account: tesco
+- name: tesco
   password: Hufton123
   username: justin.worrall@gmail.com
-- account: telemetryapp
+- name: telemetryapp
   password: chorniymedvedyev
   username: justin.worrall@gmail.com
-- account: tmobile
+- name: tmobile
   password: Moleman1405
   username: hufton
-- account: tmobile
+- name: tmobile
   password: Hufton123
   username: justinworrall
-- account: trainline
+- name: trainline
   password: Helman2009
   username: justin.worrall@gmail.com
-- account: tumblr
+- name: tumblr
   password: Hedgehog1601
   username: hufton.tumblr.com
-- account: twitter
+- name: twitter
   password: Biggo1911
   username: juzbo
-- account: ubuntu1
+- name: ubuntu1
   password: G0nkus0ldp1ngbag
   username: justin.worrall@gmail.com
-- account: weebly
+- name: weebly
   password: Moleman1405
   username: hufton
-- account: ycombinator
+- name: ycombinator
   password: Hufton123
   username: hufton
-- account: youtube
+- name: youtube
   password: Hufton123
   username: huftonw
