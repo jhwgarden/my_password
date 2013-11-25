@@ -1,10 +1,11 @@
 < short >
 
-clean up existing passwords
-add tasks code
-encode existing password
-store salt as plain text in tmp
-:add task [add salt confirmation]
-:lookup task
+tasks to add, delete items
+add pause to check secretkey is correct
+ability to lookup secretkey from tmp file
+proper tasks structure
+add remaining passwords from dropbox
+github project
+
 
 
