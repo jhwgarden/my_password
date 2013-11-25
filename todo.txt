@@ -5,6 +5,7 @@ add pause to check secretkey is correct
 ability to lookup secretkey from tmp file
 proper tasks structure
 add remaining passwords from dropbox
+change key passwords
 github project
 
 
