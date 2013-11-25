@@ -1,10 +1,9 @@
 < short >
 
-** some passwords not decoded [google apps] **
-
 complete 'add' task
-
-** kwargs doesn't handle values containing slashes **
+check if all passwords decoded [google apps]
+fix make.py so handles slashes in kwargs
+[copy make.py to other projects]
 
 add remaining passwords from dropbox
 change key passwords
