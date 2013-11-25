@@ -1,9 +1,10 @@
 < short >
 
-** kwargs doesn't handle values containing slashes **
+** some passwords not decoded [google apps] **
 
-complete tasks (encode, search, add)
-lookup secretkey from tmp
+complete 'add' task
+
+** kwargs doesn't handle values containing slashes **
 
 add remaining passwords from dropbox
 change key passwords
