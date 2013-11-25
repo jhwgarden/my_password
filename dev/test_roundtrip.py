@@ -33,19 +33,25 @@ def trim_text(text, c=DefaultPackChar):
         count+=1
     return text[:-count]
 
+def encode(text, secretkey):
+    secretkey=pack_secretkey(secretkey)
+    cipher=AES.new(secretkey, AES.MODE_ECB)                
+    return base64.b64encode(cipher.encrypt(pack_text(text)))
+
+def decode(text, secretkey):
+    secretkey=pack_secretkey(secretkey)
+    cipher=AES.new(secretkey, AES.MODE_ECB)                
+    return trim_text(cipher.decrypt(base64.b64decode(text)))
+
 if __name__=="__main__":
     try:
         import sys 
         if len(sys.argv) < 3:
             raise RuntimeError("Please enter text, secret key")
         text, secretkey = sys.argv[1:3]
-        secretkey=pack_secretkey(secretkey)
-        print "**%s*" % secretkey
-        cipher=AES.new(secretkey, AES.MODE_ECB)                
-        encoded=base64.b64encode(cipher.encrypt(pack_text(text)))
-        print encoded
-        decoded=trim_text(cipher.decrypt(base64.b64decode(encoded)))
-        print "**%s**" % decoded
+        encodedtext=encode(text, secretkey)
+        print encodedtext
+        print "**%s**" % decode(encodedtext, secretkey)
     except RuntimeError, error:
         print "Error: %s" % str(error)
 
