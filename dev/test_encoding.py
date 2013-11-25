@@ -1,3 +1,7 @@
+"""
+script to test encoding
+"""
+
 if __name__=="__main__":
     try:
         import sys 
