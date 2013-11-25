@@ -1,3 +1,7 @@
+"""
+script to dump existing csv format to yaml
+"""
+
 import csv, yaml
 
 if __name__=="__main__":
