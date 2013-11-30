@@ -1,6 +1,6 @@
 < short >
 
-non- decoded passwords > evernote, google apps, microsoft, telemetry, ubuntu
+decoding fails when initial password is len(16)
 
 [move accounts.yaml]
 github project
