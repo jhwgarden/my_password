@@ -1,12 +1,10 @@
 < short >
 
-[move accounts.yaml]
 github project
+complete password encoding
+change masterlist.txt passwords
 
 fix make.py so handles slashes in kwargs
-add remaining passwords from dropbox
-list of primary passwords to change
-github project
 
 
 
