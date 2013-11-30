@@ -1,0 +1,12 @@
+google/gmail
+amazon
+github
+betfair
+dropbox
+flickr
+linkedin
+linode
+orange
+paypal
+stackoverflow
+spotify
