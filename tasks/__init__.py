@@ -55,6 +55,29 @@ class EncodeTask(BaseTask):
         dest.write(yaml.safe_dump(accounts, default_flow_style=False))
         dest.close()
 
+class DecodeTask(BaseTask):
+
+    @classmethod
+    def validate(self, *args, **kwargs):
+        if len(args)==0:
+            raise RuntimeError("Please enter src")
+        if not os.path.isfile(args[0]):
+            raise RuntimeError("Src file not found")        
+        if not args[0].endswith("yaml"):
+            raise RuntimeError("Src must be a yaml file")
+
+    def initialise(self, *args, **kwargs):        
+        self.src=args[0]
+
+    def run(self, *args, **kwargs):        
+        secretkey=load_secretkey()
+        accounts=yaml.load(file(self.src).read())
+        decode_accounts(accounts, secretkey)
+        dest=file("tmp/decoded.yaml", 'w')
+        dest.write(yaml.safe_dump(accounts, default_flow_style=False))
+        dest.close()
+
+
 class SearchTask(BaseTask):
 
     @classmethod
@@ -77,15 +100,4 @@ class SearchTask(BaseTask):
                               if re.search(self.pattern, account["name"], re.I)!=None],
                              default_flow_style=False)
 
-class AddTask(BaseTask):
-
-    @classmethod
-    def validate(self, *args, **kwargs):
-        pass
-
-    def initialise(self, *args, **kwargs):
-        pass
-
-    def run(self, *args, **kwargs):
-        print "add"
 

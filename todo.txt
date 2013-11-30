@@ -1,12 +1,13 @@
 < short >
 
-complete 'add' task
-check if all passwords decoded [google apps]
-fix make.py so handles slashes in kwargs
-[copy make.py to other projects]
+non- decoded passwords > evernote, google apps, microsoft, telemetry, ubuntu
 
+[move accounts.yaml]
+github project
+
+fix make.py so handles slashes in kwargs
 add remaining passwords from dropbox
-change key passwords
+list of primary passwords to change
 github project
 
 
