@@ -1,7 +1,5 @@
 < short >
 
-new trim_text still not working
-
 [move accounts.yaml]
 github project
 

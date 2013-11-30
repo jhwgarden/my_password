@@ -24,14 +24,9 @@ def pack_secretkey(text):
             return pack_text(text, n=sz)
     return text[:sz]
 
-def trim_text(text, c=DefaultPackChar):
-    count=0
-    for i in range(len(text)):
-        j=len(text)-(i+1)
-        if text[j]!=c:
-            break
-        count+=1
-    return text[:-count]
+def trim_text(text, c=' '):
+    return c.join([tok for tok in text.split(c)
+                   if tok!=''])
 
 def encode(text, secretkey):
     secretkey=pack_secretkey(secretkey)
