@@ -1,6 +1,6 @@
 < short >
 
-decoding fails when initial password is len(16)
+new trim_text still not working
 
 [move accounts.yaml]
 github project
