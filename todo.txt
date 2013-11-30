@@ -1,7 +1,6 @@
 < short >
 
-github project
-complete password encoding
+encode remaining passwords
 change masterlist.txt passwords
 
 fix make.py so handles slashes in kwargs
