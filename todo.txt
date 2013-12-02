@@ -1,6 +1,6 @@
 < short >
 
-encode remaining passwords
+add aws codes to hufton.yaml
 change masterlist.txt passwords
 
 fix make.py so handles slashes in kwargs
