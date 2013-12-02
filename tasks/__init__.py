@@ -9,7 +9,7 @@ class BaseTask:
     def initialise(self, *args, **kwargs):
         pass
 
-EncodedFields=["password"]
+EncodedFields=["password", "secretkey"]
 
 SecretKeyFile="tmp/secretkey.txt"
 
@@ -23,14 +23,14 @@ def encode_accounts(accounts, secretkey):
     from lib.encoder import encode
     for account in accounts:
         for attr in EncodedFields:
-            if account[attr]:
+            if attr in account:
                 account[attr]=encode(account[attr], secretkey)
 
 def decode_accounts(accounts, secretkey):
     from lib.encoder import decode
     for account in accounts:
         for attr in EncodedFields:
-            if account[attr]:
+            if attr in account:
                 account[attr]=decode(account[attr], secretkey)
 
 class EncodeTask(BaseTask):
