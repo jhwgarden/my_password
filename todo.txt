@@ -1,9 +1,11 @@
 < short >
 
-encode account names
 change masterlist.txt passwords
 
 fix make.py so handles slashes in kwargs
 
+< thoughts >
+
+encode account names ? [probably not worth it given you're using email for large number of names]
 
 

@@ -1,6 +1,6 @@
+< todo >
+
 google/gmail
-amazon
-facebook
 github
 betfair
 dropbox
@@ -11,4 +11,10 @@ orange
 paypal
 stackoverflow
 spotify
+linode
+
+< completed >
+
+amazon
 twitter
+facebook
